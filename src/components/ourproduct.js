@@ -77,7 +77,7 @@ const OurProduct = () => {
 
 
               <button className="w-full px-4 py-2 text-teal-700 border border-teal-600 rounded-lg hover:bg-teal-50 transition-colors">
-                Learn More
+                Add to Cart
               </button>
             </div>
           </div>
