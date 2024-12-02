@@ -7,8 +7,20 @@ const Home = () => {
      
 
 
-      <div className="w-full h-screen hidden sm:block bg-contain bg-bottom bg-no-repeat" style={{ backgroundImage: `url(${wall})` }}>
-      </div>
+<div
+  className="w-full min-h-screen sm:h-screen bg-contain bg-bottom bg-no-repeat sm:block"
+  style={{
+    backgroundImage: `url(${wall})`,
+    margin: 0, // Remove any margins
+    padding: 0, // Remove any padding
+    boxSizing: 'border-box', // Ensure padding doesn't add to the element's size
+  }}
+>
+  {/* Content for larger screens */}
+</div>
+
+
+
 
 
       <div className="sm:hidden flex items-center justify-center bg-black bg-opacity-50 h-screen">
