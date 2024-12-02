@@ -14,7 +14,7 @@ const Home = () => {
       </div>
 
       {/* Content for smaller screens */}
-      <div className="sm:hidden flex items-center justify-center bg-black bg-opacity-50 py-8">
+      <div className="sm:hidden flex items-center  bg-black bg-opacity-50 py-8">
   <h1 className="text-white text-lg font-bold text-center px-4">
     Welcome to Abhyanjana
   </h1>
