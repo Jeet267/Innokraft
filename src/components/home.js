@@ -3,7 +3,7 @@ import wall from "../waller_.jpg";
 const Home = () => {
   return (
     <div className="relative">
-      {/* Background for larger screens */}
+
       <div
         className="hidden sm:block w-full min-h-screen bg-contain bg-bottom bg-no-repeat"
         style={{
